@@ -16,7 +16,8 @@ func main() {
 	rdb := db.GetRedisClient()
 	// readWrite(rdb.Client)
 	// aquire lock?
-	printPipeline(rdb.Client)
+	// printPipeline(rdb.Client)
+	multiExample(rdb.Client)
 }
 
 // menggunakan set
